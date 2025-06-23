@@ -6,7 +6,7 @@ Azure serverless cost optimization solution using Cosmos DB and Blob Storage
 This solution offloads rarely accessed billing records from Cosmos DB to Azure Blob Storage using Azure Functions. It reduces storage and read costs while maintaining data availability and API compatibility.
 
 ## Architecture
-![Architecture Diagram](architecture-diagram.png .png)
+architecture-diagram.png .png
 
 ## Functions
 - archive-function: Moves old records to blob
